@@ -1,0 +1,87 @@
+body{
+    background-image: url("https://www.gizmodo.com.au/content/uploads/sites/2/2013/05/23/18oiwrk32uilpgif.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.h1{
+    
+    
+    color: black;
+   
+   
+}
+.img-Container{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+   
+}
+
+#rock,#paper,#scissors{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    background-color: rgba(255, 222, 173, 0.705);
+
+}
+
+#rock:hover{
+    box-shadow: 0px 10px 50px wheat;
+    
+}
+
+#paper:hover{
+    box-shadow: 0px 10px 50px wheat;
+
+}
+
+#scissors:hover{
+    box-shadow: 0px 10px 50px wheat;
+}
+.Res-Container{
+    color: orange;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+}
+
+.button,.button2{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+.button,.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+.button2:hover{
+    background-color: black;
+    color: white;
+}
